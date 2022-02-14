@@ -43,14 +43,14 @@ Given this as the input file:
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 begin  <br />
-  int ghgghg, abc_edef; 
-  int a, b, c, abcd; 
-  int qwerty; 
-  ghgghg = (abc_edef * b); 
-  qwerty=(6 * (a / b)); 
-  qwerty=((6 - abcd)*(a + b));
-  xyz = (9*8*7*6)/(a+b+c); 
-end. 
+  int ghgghg, abc_edef; <br />
+  int a, b, c, abcd; <br />
+  int qwerty; <br />
+  ghgghg = (abc_edef * b); <br />
+  qwerty=(6 * (a / b)); <br />
+  qwerty=((6 - abcd)*(a + b)); <br />
+  xyz = (9*8*7*6)/(a+b+c); <br />
+end. <br />
 
 
 Your program should produce output similar to this: 
