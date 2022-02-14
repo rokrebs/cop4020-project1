@@ -68,29 +68,29 @@ R1 = R1 / R2 <br />
 R0 = R0 * R1 <br />
 qwerty = R0 <br />
 *****[6,a,b,/,*]***** <br />
-R0 = 6
-R1 = abcd
-R0 = R0 - R1
-R1 = a
-R2 = b
-R1 = R1 + R2
-R0 = R0 * R1
-qwerty = R0
-*****[6,abcd,-,a,b,+,*]*****
-R0 = 9
-R1 = 8
-R0 = R0 * R1
-R1 = 7
-R0 = R0 * R1
-R1 = 6
-R0 = R0 * R1
-R1 = a
-R2 = b
-R1 = R1 + R2
-R2 = c
-R1 = R1 + R2
-R0 = R0 / R1
-xyz = R0
+R0 = 6 <br />
+R1 = abcd <br />
+R0 = R0 - R1 <br />
+R1 = a <br />
+R2 = b <br />
+R1 = R1 + R2 <br />
+R0 = R0 * R1 <br />
+qwerty = R0 <br />
+*****[6,abcd,-,a,b,+,*]***** <br />
+R0 = 9 <br />
+R1 = 8 <br />
+R0 = R0 * R1 <br />
+R1 = 7 <br />
+R0 = R0 * R1 <br />
+R1 = 6 <br />
+R0 = R0 * R1 <br />
+R1 = a <br />
+R2 = b <br />
+R1 = R1 + R2 <br />
+R2 = c <br />
+R1 = R1 + R2 <br />
+R0 = R0 / R1 <br />
+xyz = R0 <br />
 *****[9,8,*,7,*,6,*,a,b,+,c,+,/]*****
 
 For the following illegal program, output would be as indicated:
