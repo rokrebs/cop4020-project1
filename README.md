@@ -3,11 +3,11 @@
 
 You will implement this program in the C programming language. You must provide a makefile and your program must run on the ssh server. We will add integer variable declarations immediately after the begin token at the start of the program:
 
-begin
-  int x, y, z, b;
-  x = y + z;
-  z = b - 5;
-end
+begin <br />
+  int x, y, z, b; <br />
+  x = y + z; <br />
+  z = b - 5; <br />
+end <br />
 
 Declarations should also work as multi-line constructs:
 
