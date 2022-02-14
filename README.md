@@ -60,14 +60,14 @@ R0 = abc_edef <br />
 R1 = b <br />
 R0 = R0 * R1 <br />
 ghgghg = R0 <br />
-*****[abc_edef,b,*]***** <br />
+xxxx[abc_edef,b,*]xxxx <br />
 R0 = 6 <br />
 R1 = a <br />
 R2 = b <br />
 R1 = R1 / R2 <br />
 R0 = R0 * R1 <br />
 qwerty = R0 <br />
-*****[6,a,b,/,*]***** <br />
+xxxx[6,a,b,/,*]xxxxx <br />
 R0 = 6 <br />
 R1 = abcd <br />
 R0 = R0 - R1 <br />
@@ -76,7 +76,7 @@ R2 = b <br />
 R1 = R1 + R2 <br />
 R0 = R0 * R1 <br />
 qwerty = R0 <br />
-*****[6,abcd,-,a,b,+,*]***** <br />
+xxxxx[6,abcd,-,a,b,+,*]xxxxx <br />
 R0 = 9 <br />
 R1 = 8 <br />
 R0 = R0 * R1 <br />
@@ -91,16 +91,16 @@ R2 = c <br />
 R1 = R1 + R2 <br />
 R0 = R0 / R1 <br />
 xyz = R0 <br />
-*****[9,8,*,7,*,6,*,a,b,+,c,+,/]*****
+xxxxx[9,8,*,7,*,6,*,a,b,+,c,+,/]xxxxx
 
 For the following illegal program, output would be as indicated:
 
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  ~ This is a comment
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-begin
-  int ghgghg, abc_edef;
-  abc = (abc_edef * b);
-end.
+begin <br />
+  int ghgghg, abc_edef; <br />
+  abc = (abc_edef * b); <br />
+end. <br />
 
 Error line 6: variable abc is undefined.<br />
