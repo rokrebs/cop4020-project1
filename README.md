@@ -53,21 +53,21 @@ begin  <br />
 end. <br />
 
 
-Your program should produce output similar to this: 
+Your program should produce output similar to this:  <br />
 
-Compiling legal1.in 
-R0 = abc_edef 
-R1 = b 
-R0 = R0 * R1 
-ghgghg = R0 
-*****[abc_edef,b,*]***** 
-R0 = 6
-R1 = a
-R2 = b
-R1 = R1 / R2
-R0 = R0 * R1
-qwerty = R0
-*****[6,a,b,/,*]*****
+Compiling legal1.in  <br />
+R0 = abc_edef <br />
+R1 = b <br />
+R0 = R0 * R1 <br />
+ghgghg = R0 <br />
+*****[abc_edef,b,*]***** <br />
+R0 = 6 <br />
+R1 = a <br />
+R2 = b <br />
+R1 = R1 / R2 <br />
+R0 = R0 * R1 <br />
+qwerty = R0 <br />
+*****[6,a,b,/,*]***** <br />
 R0 = 6
 R1 = abcd
 R0 = R0 - R1
