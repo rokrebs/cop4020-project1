@@ -35,71 +35,72 @@ If all statements are legal, you will generate an assembly-like code loading reg
 
 You will use the lexical analyzer and parser from Project 1. You will add variable declaration, semantic checks, and code generation capabilities to that project.
 
-Input and output: <br />
+Input and output: 
 
 Given this as the input file: 
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
  ~ This is a comment 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
-begin <br />
-  int ghgghg, abc_edef; <br />
-  int a, b, c, abcd; <br />
-  int qwerty; <br />
-  ghgghg = (abc_edef * b); <br />
-  qwerty=(6 * (a / b)); <br />
-  qwerty=((6 - abcd)*(a + b)); <br />
-  xyz = (9*8*7*6)/(a+b+c); <br />
-end. <br />
+begin 
+  int ghgghg, abc_edef; 
+  int a, b, c, abcd; 
+  int qwerty; 
+  ghgghg = (abc_edef * b); 
+  qwerty=(6 * (a / b)); 
+  qwerty=((6 - abcd)*(a + b));
+  xyz = (9*8*7*6)/(a+b+c); 
+end. 
 
 
-Your program should produce output similar to this: <br />
+Your program should produce output similar to this: 
 
-Compiling legal1.in <br />
-R0 = abc_edef <br />
-R1 = b <br />
-R0 = R0 * R1 <br />
-ghgghg = R0 <br />
-*****[abc_edef,b,*]***** <br />
-R0 = 6<br />
-R1 = a<br />
-R2 = b<br />
-R1 = R1 / R2<br />
-R0 = R0 * R1<br />
-qwerty = R0<br />
-*****[6,a,b,/,*]*****<br />
-R0 = 6<br />
-R1 = abcd<br />
-R0 = R0 - R1<br />
-R1 = a<br />
-R2 = b<br />
-R1 = R1 + R2<br />
-R0 = R0 * R1<br />
-qwerty = R0<br />
-*****[6,abcd,-,a,b,+,*]*****<br />
-R0 = 9<br />
-R1 = 8<br />
-R0 = R0 * R1<br />
-R1 = 7<br />
-R0 = R0 * R1<br />
-R1 = 6<br />
-R0 = R0 * R1<br />
-R1 = a<br />
-R2 = b<br />
-R1 = R1 + R2<br />
-R2 = c<br />
-R1 = R1 + R2<br />
-R0 = R0 / R1<br />
-xyz = R0<br />
-*****[9,8,*,7,*,6,*,a,b,+,c,+,/]*****<br />
+Compiling legal1.in 
+R0 = abc_edef 
+R1 = b 
+R0 = R0 * R1 
+ghgghg = R0 
+*****[abc_edef,b,*]***** 
+R0 = 6
+R1 = a
+R2 = b
+R1 = R1 / R2
+R0 = R0 * R1
+qwerty = R0
+*****[6,a,b,/,*]*****
+R0 = 6
+R1 = abcd
+R0 = R0 - R1
+R1 = a
+R2 = b
+R1 = R1 + R2
+R0 = R0 * R1
+qwerty = R0
+*****[6,abcd,-,a,b,+,*]*****
+R0 = 9
+R1 = 8
+R0 = R0 * R1
+R1 = 7
+R0 = R0 * R1
+R1 = 6
+R0 = R0 * R1
+R1 = a
+R2 = b
+R1 = R1 + R2
+R2 = c
+R1 = R1 + R2
+R0 = R0 / R1
+xyz = R0
+*****[9,8,*,7,*,6,*,a,b,+,c,+,/]*****
 
-For the following illegal program, output would be as indicated:<br />
+For the following illegal program, output would be as indicated:
 
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br />
- ~ This is a comment<br />
- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br />
-begin<br />
-  int ghgghg, abc_edef;<br />
-  abc = (abc_edef * b);<br />
-end.<br />
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~ This is a comment
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+begin
+  int ghgghg, abc_edef;
+  abc = (abc_edef * b);
+end.
 
 Error line 6: variable abc is undefined.<br />
