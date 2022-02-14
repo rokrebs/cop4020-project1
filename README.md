@@ -38,11 +38,11 @@ You will use the lexical analyzer and parser from Project 1. You will add variab
 Input and output: 
 
 Given this as the input file: 
- <!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> 
- <!~ This is a comment >
- <!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~> 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ ~ This is a comment 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-begin 
+begin  <br />
   int ghgghg, abc_edef; 
   int a, b, c, abcd; 
   int qwerty; 
