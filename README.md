@@ -39,7 +39,7 @@ Input and output: <br />
 
 Given this as the input file: <br />
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ <br />
- ~ This is a comment<br />
+ ~ This is a comment ~
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br />
 begin <br />
   int ghgghg, abc_edef; <br />
