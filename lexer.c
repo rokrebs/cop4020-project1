@@ -3,8 +3,8 @@
   File Name:lexer.c
   Assignment number 1
 
-  This file impllement the required funcions needed to run the lexic analyzer
-and inserting IDs into the symbol table
+  This file implements the required functions needed to run the 
+  lexical analyzer and inserting IDs into the symbol table
 ***************************************************************/
 #include "lexer.h"
 
@@ -46,7 +46,7 @@ int lexan() {
       ungetc(ch, file);
       return NUM;
     } else if (isalpha(ch)) {
-    while (isalpha(ch) || isdigit(ch) || ch == '.' || ch == '_') {
+      while (isalpha(ch) || isdigit(ch) || ch == '.' || ch == '_') {
         // insert into idLExeme
         strncat(idLexeme, &ch, 1);
         idLen++;

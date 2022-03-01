@@ -3,7 +3,9 @@
   File Name: parser.c
   Assignment number 1
 
-  This file contains all the required functions to parse the statements, keeping track of where you are in the string, and report whether or not the input program is legal
+  This file contains all the required functions to parse the statements, 
+  keep track of where you are in the string, and report whether or not 
+  the input program is legal
 ***************************************************************/
 #include "parser.h"
 // this function will run until we finish succesfully

@@ -4,7 +4,7 @@
   Assignment number 1
 
   This file contains the symbol table and the functionality
-  of adding seraching and printing its content.
+  of adding searching and printing its content.
 ***************************************************************/
 #include "table.h"
 

@@ -3,7 +3,8 @@
   File Name:lexer.h
   Assignment number 1
 
-  This is the header file with the required funcions needed to run the lexic analyzer and inserting IDs into the symbol table
+  This is the header file with the required functions needed to 
+run the lexical analyzer and insert IDs into the symbol table
 ***************************************************************/
 #ifndef LEXER
 #define LEXER
