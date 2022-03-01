@@ -61,7 +61,7 @@ qwerty=((6 - abcd)*(a + b)); <br />
 A legal program
 
 ~ a typical, minimal legal program
-begin
+begin <br />
   qwerty=((6 - ab_cd)*(a + b)); <br />
   xyz = (9*8*7765*6)/(a+b+c); <br />
 end
