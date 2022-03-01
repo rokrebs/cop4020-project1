@@ -46,23 +46,23 @@ These are not:
   
  Typical  Statements (legal and illegal)
 
-a = b;
-a=af+=
-a=;
-a_5 = 2;
-6 = j;
-a=d*
-dd5=((3+5*8);
-%iii=0
-a=b2-(((x_yz + 99)* abc)*d);
-qwerty=((6 - abcd)*(a + b));
- xyz = (9*8*7*6)/(a+b+c);
+a = b; <br />
+a=af+= <br />
+a=; <br />
+a_5 = 2; <br />
+6 = j; <br />
+a=d* <br />
+dd5=((3+5*8); <br />
+%iii=0 <br />
+a=b2-(((x_yz + 99)* abc)*d); <br />
+qwerty=((6 - abcd)*(a + b)); <br />
+ xyz = (9*8*7*6)/(a+b+c); <br />
 
 A legal program
 
 ~ a typical, minimal legal program
 begin
-  qwerty=((6 - ab_cd)*(a + b));
-  xyz = (9*8*7765*6)/(a+b+c);
+  qwerty=((6 - ab_cd)*(a + b)); <br />
+  xyz = (9*8*7765*6)/(a+b+c); <br />
 end
 
